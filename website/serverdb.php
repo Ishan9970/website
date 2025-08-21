@@ -2,7 +2,7 @@
 
 $server = "localhost";
 $user = "root";
-$password = ""; 
+$password = "Applepie123$"; 
 $db = "signup";
 
 $con = mysqli_connect($server, $user, $password, $db);
