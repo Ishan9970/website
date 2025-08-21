@@ -1,6 +1,7 @@
 <?php
 session_start();
-session_destroy();
-
-header("location:logins.php");
+if (!isset($_SESSION['username'])) {
+    header('Location: logins.php');
+    exit();
+}
 ?>
